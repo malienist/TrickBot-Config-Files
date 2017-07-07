@@ -1,0 +1,8 @@
+<moduleconfig>
+	<autostart>yes</autostart>
+	<needinfo name="id"/>
+<needinfo name="ip"/>
+	<autoconf>
+		<conf ctl="SetConf" file="bcconf" period="90"/>
+	</autoconf>
+</moduleconfig>
